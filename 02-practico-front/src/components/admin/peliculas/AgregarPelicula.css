@@ -1,0 +1,75 @@
+body {
+    background-color: #121212; /* Fondo oscuro para mayor confort visual */
+    color: #ffffff; /* Texto blanco para buena legibilidad */
+    font-family: 'Arial', sans-serif; /* Fuente simple y moderna */
+}
+
+h1 {
+    text-align: center; /* Centrar el título */
+    font-size: 2.5em; /* Tamaño grande para destacar */
+    margin-bottom: 30px; /* Espacio inferior */
+}
+
+form {
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar el formulario */
+    padding: 20px; /* Espacio interno */
+    background-color: #1e1e1e; /* Fondo ligeramente más claro para el formulario */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidad */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Espacio entre grupos de formulario */
+}
+
+label {
+    font-weight: bold; /* Hacer etiquetas más prominentes */
+    margin-bottom: 5px; /* Espacio debajo de las etiquetas */
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+textarea,
+select {
+    width: 100%; /* Ancho completo para todos los campos */
+    padding: 10px; /* Espacio interno */
+    border: 1px solid #007bff; /* Borde azul */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #fff; /* Fondo blanco para los campos */
+    color: #000; /* Texto negro en los campos */
+    transition: border-color 0.2s; /* Transición suave al enfocar */
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #0056b3; /* Cambia el color del borde al enfocar */
+    outline: none; /* Eliminar el contorno predeterminado */
+}
+
+button {
+    background-color: #007bff; /* Color de fondo azul para botones */
+    color: #fff; /* Texto blanco en los botones */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    font-size: 1em; /* Tamaño de fuente del botón */
+    cursor: pointer; /* Cambiar el cursor a puntero */
+    transition: background-color 0.3s, transform 0.2s; /* Transiciones suaves */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el ratón */
+    transform: scale(1.05); /* Efecto de zoom en el botón al pasar el ratón */
+}
+
+button:disabled {
+    background-color: #cccccc; /* Color gris para botones deshabilitados */
+    cursor: not-allowed; /* Cambiar el cursor */
+}
+
+.alert {
+    margin-top: 20px; /* Espacio entre la alerta y el formulario */
+}

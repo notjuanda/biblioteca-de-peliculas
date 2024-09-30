@@ -1,0 +1,35 @@
+.agregar-actores-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.actor-selection {
+    margin-bottom: 15px;
+}
+
+.role-input {
+    margin-top: 5px;
+    width: 100%;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

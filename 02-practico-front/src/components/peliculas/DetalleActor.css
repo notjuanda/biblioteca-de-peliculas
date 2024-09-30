@@ -1,0 +1,106 @@
+.peliculas-actor-container {
+    padding: 30px;
+    background-color: #f4f4f4;
+}
+
+.actor-info {
+    margin-bottom: 40px;
+}
+
+.actor-imagen {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.actor-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.actor-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.actor-bio {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+.peliculas-header {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.peliculas-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pelicula-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pelicula-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.pelicula-card img {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+
+.pelicula-titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.pelicula-detalles {
+    font-size: 1rem;
+    color: #555;
+}
+
+.ver-detalles-btn {
+    margin-top: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+}
+
+.ver-detalles-btn:hover {
+    background-color: #0056b3;
+}
+
+.loading {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 50px;
+    color: #333;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+.no-peliculas-msg {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #777;
+}
